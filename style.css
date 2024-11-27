@@ -1,0 +1,162 @@
+body{
+  margin: 0px;
+}
+#map{
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+}
+
+.fijado{
+  position: fixed;
+  z-index: 8;
+  width: 100%;
+}
+
+header {
+  
+    z-index: 3;
+    background-color: #0074D9; /* Color de fondo azul */
+    padding: 10px; /* Espacio interior */
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para la sección de botones */
+.botones {
+    text-align: center; /* Alineación al centro */
+    background-color: #ffffff;
+}
+
+#baniosOpciones{
+  margin-left: auto;
+  text-align: right;
+}
+
+.opcionesFoot{
+  display: flex;
+
+}
+
+i{
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón */
+.boton {
+    padding: 10px 20px; /* Espacio interior */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin: 6px; /* Margen derecho entre los botones */
+    font-size: 14px;
+}
+
+button {
+    padding: 12.5px 20px;
+    border: 0;
+    border-radius: 100px;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+   }
+   
+   .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(0, 110, 255, 0.466);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+
+   footer{
+    visibility: hidden;
+    z-index: 3;
+    position: fixed;    
+    top: 90%;
+    height: 10%;
+    min-width: 100%;
+    background: #ffffff;
+    margin-top: 5px;
+    border-radius: 10px;
+   
+  }
+
+  #BebederosBtn{
+    background-color: #2ba8fb;
+  }
+  #BañosBtn{
+    background-color: #2ba8fb;
+  }
+  #RutasBtn{
+    
+    background-color: #2ba8fb;
+    border-radius: 10px;
+   
+    font-size: 18px;
+
+  }
+  #BañosHombresBtn{
+    background-color: #2ba8fb;
+   
+  }
+
+  #BañosMujeresBtn{
+    background-color: #2ba8fb;
+  }
+
+
+   
+   
+   
+   
+   
+   
+   
